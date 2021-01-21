@@ -34,6 +34,9 @@ steps:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
       **\bin\$(BuildConfiguration)\**\*test*.dll
+      !*testhost.dll 
+      !**\*testhost.dll
+      !**\*Exceptions.Handling.Tests.dll
       !**\obj\**
       !**\xunit.runner.visualstudio.testadapter.dll
       !**\xunit.runner.visualstudio.dotnetcore.testadapter.dll
