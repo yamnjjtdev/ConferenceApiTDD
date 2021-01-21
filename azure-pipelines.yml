@@ -38,6 +38,7 @@ steps:
       !**\xunit.runner.visualstudio.testadapter.dll
       !**\xunit.runner.visualstudio.dotnetcore.testadapter.dll
     searchFolder: '$(System.DefaultWorkingDirectory)'
+    otherConsoleOptions: '/Framework:.NETCoreApp,Version=3.1'
 
 - task: PublishBuildArtifacts@1
   inputs:
