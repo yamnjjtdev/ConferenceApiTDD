@@ -1,5 +1,8 @@
 # ConferenceApiTDD
 
+[![Build Status](https://dev.azure.com/yamnjjt/Showcase/_apis/build/status/yamnjjtdev.ConferenceApiTDD?branchName=main)](https://dev.azure.com/yamnjjt/Showcase/_build/latest?definitionId=1&branchName=main)
+
+
 This has been created to showcase the API development skills with TDD approach.
 
 ### Live Demo 
